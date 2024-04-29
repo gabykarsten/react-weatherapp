@@ -1,4 +1,9 @@
 .App {
-  text-align: center;
   margin: 10px;
+}
+
+.App footer {
+  font-family: monospace;
+  text-align: center;
+  opacity: 0.7;
 }
