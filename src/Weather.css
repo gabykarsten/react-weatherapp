@@ -1,14 +1,21 @@
 .Weather {
-  color: rgba(148, 97, 77, 0.89);
-  border: 1px solid rgba(180, 140, 124, 0.89);
+  color: #425a43;
+  border: 1px solid rgba(207, 168, 152, 0.89);
   padding: 16px;
   margin: 10px auto;
   max-width: 600px;
   border-radius: 4px;
 }
 
-.row {
-  margin-top: 10px;
+.form-control {
+  border: 1px solid rgba(180, 140, 124, 0.89);
+  color: rgba(148, 97, 77, 0.89);
+  width: 420px;
+}
+
+.btn {
+  background-color: #5a86ad;
+  color: white;
 }
 
 .Weather h1 {
@@ -52,4 +59,8 @@
   line-height: 1;
   top: -34px;
   margin-left: 5px;
+}
+
+.col-6 {
+  margin-top: 20px;
 }
