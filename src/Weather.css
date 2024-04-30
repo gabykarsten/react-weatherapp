@@ -8,8 +8,14 @@
 }
 
 .form-control {
-  border: 1px solid rgba(207, 168, 152, 0.89);
+  border: 1px solid #5a86ad;
   width: 420px;
+}
+
+.btn {
+  background-color: #5a86ad;
+  color: white;
+  border: 1px solid #5a86ad;
 }
 
 .Weather h1 {
