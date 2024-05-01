@@ -8,7 +8,7 @@
 }
 
 .form-control {
-  border: 1px solid #5a86ad;
+  border: 1px solid rgba(207, 168, 152, 0.89);
   width: 420px;
 }
 
@@ -37,19 +37,15 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 64px;
-  width: 64px;
-  position: relative;
-  top: -15px;
-  margin-right: 10px;
-}
-
 .Weather .temperature {
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+}
+
+.Weather canvas {
+  margin: 10px auto;
 }
 
 .Weather .unit {
