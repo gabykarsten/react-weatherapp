@@ -37,15 +37,20 @@
   list-style: none;
 }
 
-.Weather .temperature {
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 400;
+.Weather img {
+  height: 60px;
+  width: 60px;
+  margin-left: -8px;
+  margin-top: -5px;
 }
 
-.Weather canvas {
-  margin: 10px auto;
+.Weather .float-left {
+  padding-top: -28px;
+  margin-top: -82px;
+  margin-left: 56px;
+  font-weight: bold;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .Weather .unit {
